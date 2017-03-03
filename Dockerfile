@@ -13,6 +13,4 @@ RUN apt-get install -y ruby-full \
 
 COPY ["entrypoint.sh", "/"]
 
-WORKDIR /build
-
 ENTRYPOINT ["/entrypoint.sh"]
